@@ -1,0 +1,10 @@
+packages/modules/libraries/frameworks searched--->keras
+                                                 tensorflow
+                                                 pandas
+                                                 gtts
+                                                 pyaudio
+                                                 trasformers
+                                                 translator(google)
+                                                 
+                                             
+                                       
