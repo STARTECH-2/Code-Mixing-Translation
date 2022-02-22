@@ -4,7 +4,5 @@ packages/modules/libraries/frameworks searched--->keras
                                                  gtts
                                                  pyaudio
                                                  trasformers
-                                                 translator(google)
-                                                 
-                                             
-                                       
+                                                 pycld2
+                                                 SpeechRecognition API                                                    
