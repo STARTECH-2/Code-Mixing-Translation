@@ -7,7 +7,6 @@ from googletrans import Translator
 # from pytesseract import image_to_string
 from PIL import Image
 import pytesseract
-
 # import pyttsx3
 # from scipy.io import wavfile
 
@@ -133,8 +132,9 @@ elif n == 4:
     with open('abc.txt', mode='w') as file:
         file.write(text3)
         print(text3)
+        print(detect(text3))
     # write text in a text file and save it to source path
-    print(detect(text3))
+    # print(detect(text3))
     if detect(text3) == 'te':
         translator = Translator()
         translation = translator.translate(text3, src='te', dest='en')
