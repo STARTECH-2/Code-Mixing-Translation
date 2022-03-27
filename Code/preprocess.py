@@ -2,8 +2,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 from scipy.io import wavfile
 
-freq_sample, sig_audio = wavfile.read("G:/PPT/2 - 2/AI DS/Project/Code-Mixing Translation DataSet/Modified Dataset (1 "
-                                      "to 25)/Modified_Voice_013.wav")
+freq_sample, sig_audio = wavfile.read(" # GIVE PATH")
 print('\nShape of Signal:', sig_audio.shape)
 print('Signal Datatype:', sig_audio.dtype)
 print('Signal duration:', round(sig_audio.shape[0] / float(freq_sample), 2), 'seconds')
