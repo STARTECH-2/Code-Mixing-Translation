@@ -69,7 +69,7 @@ elif n == 2:
         print("Try again")
         exit()
 elif n == 3:
-    filename = 'G:/PPT/2 - 2/AI DS/Project/Code-Mixing Translation DataSet/Voice 100.wav '
+    filename = ' # GIVE PATH OF YOUR WAV FILE '
     r = s_r.Recognizer()
     with s_r.AudioFile(filename) as source:
         # listen for the data (load audio to memory)
@@ -101,7 +101,7 @@ elif n == 3:
             print("Try again")
             exit()
 elif n == 4:
-    img = Image.open('G:/PPT/2 - 2/AI DS/Project/Code-Mixing Translation DataSet/Image Dataset/text2.jpg')
+    img = Image.open(' GIVE PATH OF YOUR IMAGE FILE ')
     pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files/Tesseract-OCR/tesseract.exe'
     text3 = pytesseract.image_to_string(img)
     with open('abc.txt', mode='w') as file:
