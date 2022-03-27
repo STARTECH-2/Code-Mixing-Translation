@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>CODE-MIXING TRANSLATION</title>
+</head>
+<body>
+ {% if msg %}
+ <h1 style="color: green"> {{ msg }} </h1>
+ {% endif %}
+<h1> Upload your file </h1>
+<form method=post enctype=multipart/form-data>
+  <input type="file" name=file>
+  <input type="submit" name=Upload value="Upload">
+ </form>
+{% if extracted %}
+ <h1> Results: </h1>
+ {% endif %}
+<!--{% if img_src %}-->
+<!-- <img src="G:/PPT/2 - 2/AI DS/Project/Code/flask/uploads/{{img_src}}">-->
+<!-- {% endif %}-->
+{% if extracted %}
+ <p> {{ extracted }} </p>
+ {% endif %}
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<br><a href="/">Home</a>
+</body>
+</html>
