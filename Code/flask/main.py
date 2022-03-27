@@ -18,7 +18,7 @@ def allowed_file(filename):
 
 
 path = os.getcwd()
-UPLOAD_FOLDER = os.path.join(path, 'G:/PPT/2 - 2/AI DS/Project/Code/flask/uploads/')
+UPLOAD_FOLDER = os.path.join(path, '/uploads/')
 if not os.path.isdir(UPLOAD_FOLDER):
     os.mkdir(UPLOAD_FOLDER)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
